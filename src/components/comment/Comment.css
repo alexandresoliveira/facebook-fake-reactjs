@@ -1,0 +1,39 @@
+.comment {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin: 6px;
+}
+
+.comment .comment-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-size: cover;
+  display: flex;
+  background-color: #4f4aaa;
+  align-items: center;
+}
+
+.comment .comment-img img {
+  flex: 1;
+  width: 30px;
+  align-self: center;
+}
+
+.comment .comment-message {
+  flex: 1;
+  background-color: #EEEEEE;
+  margin-left: 20px;
+  border-radius: 15px;
+  padding: 0px 15px;
+}
+
+.comment .comment-message p {
+  color: #979797;
+}
+
+.comment .comment-message p strong {
+  color: #4A4A4A;
+  margin-right: 5px;
+}
